@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../PDF/java/out"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string.h": "c"
+		}
+	}
+}

@@ -1,0 +1,178 @@
+$date
+	Sat Jan 27 19:17:29 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module two_player_game_tb $end
+$scope module uut $end
+$var wire 3 ! action_player1 [2:0] $end
+$var wire 3 " action_player2 [2:0] $end
+$var wire 1 # clk $end
+$var wire 1 $ reset $end
+$var parameter 3 % JUMP $end
+$var parameter 3 & KICK $end
+$var parameter 3 ' MOVE_LEFT $end
+$var parameter 3 ( MOVE_RIGHT $end
+$var parameter 3 ) PUNCH $end
+$var parameter 3 * WAIT $end
+$var reg 2 + health_player1 [1:0] $end
+$var reg 2 , health_player2 [1:0] $end
+$var reg 3 - last_action_player1 [2:0] $end
+$var reg 3 . last_action_player2 [2:0] $end
+$var reg 3 / position_player1 [2:0] $end
+$var reg 3 0 position_player2 [2:0] $end
+$var reg 3 1 state_player1 [2:0] $end
+$var reg 3 2 state_player2 [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 *
+b100 )
+b1 (
+b0 '
+b101 &
+b10 %
+$end
+#0
+$dumpvars
+b11 2
+b11 1
+b101 0
+b0 /
+b11 .
+b11 -
+b11 ,
+b11 +
+1$
+0#
+bx "
+bx !
+$end
+#10000
+0$
+#20000
+b0 2
+b1 1
+1#
+b0 "
+b1 !
+#30000
+0#
+#40000
+b0 .
+b1 -
+b100 0
+b1 /
+1#
+#50000
+0#
+#60000
+b11 0
+b10 /
+b10 2
+b100 1
+1#
+b10 "
+b100 !
+#70000
+0#
+#80000
+b10 .
+b100 -
+b101 2
+1#
+b101 "
+#90000
+0#
+#100000
+b101 .
+b1 ,
+b100 2
+1#
+b100 "
+#110000
+0#
+#120000
+b100 .
+b100 0
+b1 /
+b11 2
+b1 1
+1#
+b11 "
+b1 !
+#130000
+0#
+#140000
+b11 .
+b1 -
+b10 /
+b10 1
+1#
+b10 !
+#150000
+0#
+#160000
+b10 ,
+b10 -
+b101 2
+b100 1
+1#
+b101 "
+b100 !
+#170000
+0#
+#180000
+b101 .
+b100 -
+b10 +
+b10 2
+b101 1
+1#
+b10 "
+b101 !
+#190000
+0#
+#200000
+b10 .
+b101 -
+b101 2
+b0 1
+1#
+b101 "
+b0 !
+#210000
+0#
+#220000
+b101 .
+b0 -
+b1 +
+b1 /
+b0 2
+b101 1
+1#
+b0 "
+b101 !
+#230000
+0#
+#240000
+b0 .
+b101 -
+b11 0
+1#
+#250000
+0#
+#260000
+b1 ,
+1#
+#270000
+0#
+#280000
+b0 ,
+1#
